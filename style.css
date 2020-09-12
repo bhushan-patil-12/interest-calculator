@@ -90,6 +90,11 @@ output{
     header {
         font-size: 12px;
     }
+    
+    .container section{
+        margin: 5%;
+    }
+    
     label{
         width: 240px;
         height: 20px;
