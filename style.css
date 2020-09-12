@@ -54,6 +54,9 @@ label{
 input{
     height: 20px;
     padding: 3px;
+    border: none;
+    border-bottom:#a0a0a0 solid 2px;
+    outline: none;
 }
 
 /* buttons and output  */
