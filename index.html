@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+</head>
+<header>
+    <h1>Interest Calculator</h1>
+</header>
+
+<!-- Simple Interest -->
+<section class="container">
+    <section>
+        <h2>Simple Interest</h2>
+        <form method="post">
+            <label for="sPrincipal">Principal amount: </label>
+            <input type="text" id="sPrincipal" name="sPrincipal" placeholder="Enter amount"><br>
+
+            <label for="sROI">Rate of Interest (in % annual): </label>
+            <input type="text" id="sROI" name="sROI" placeholder="Example: 12"><br>
+
+            <label for="sNYears">No of years: </label>
+            <input type="text" id="sNYears" name="sNYears" placeholder="in years"><br>
+            <div class="output">
+                <button type="button" id="sCalculate">Calculate</button>
+                <button type="reset">Reset</button><br>
+
+                <label for="sResult">Total Amount: </label>
+                <output id="sResult"></output>
+            </div>
+        </form>
+    </section>
+
+    <!-- Compound Interest -->
+    <section>
+        <h2>Compound Interest</h2>
+        <form method="post">
+            <label for="cPrincipal">Principal amount: </label>
+            <input type="text" id="cPrincipal" name="cPrincipal" placeholder="Enter amount"><br>
+
+            <label for="cROI">Rate of Interest (in % annual): </label>
+            <input type="text" id="cROI" name="cROI" placeholder="Example: 12"><br>
+
+            <label for="cNYears">No of years: </label>
+            <input type="text" id="cNYears" name="cNYears" placeholder="in years"><br>
+
+            <label for="compound">Compound (n): </label>
+            <input type="text" id="compound" name="compound" placeholder="per year"><br>
+
+            <div class="output">
+                <button type="button" id="cCalculate">Calculate</button>
+                <button type="reset">Reset</button><br>
+
+                <label for="cResult">Total Amount: </label>
+                <output id="cResult"></output>
+            </div>
+        </form>
+    </section>
+</section>
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
