@@ -93,6 +93,7 @@ output{
     
     .container section{
         margin: 5%;
+        padding: 10%;
     }
     
     label{
