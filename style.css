@@ -1,113 +1,113 @@
-body{
-    margin: 0;
-    height: 100%;
-    line-height: 40px;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    background: #42A5F5;
-    color: white;
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap);
+
+body {
+  margin: 0;
+  height: 100%;
+  line-height: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background: #42a5f5;
+  color: white;
 }
 
 /* header */
 header {
-    text-align: center;
-    text-transform: uppercase;
-    background-color:#1E88E5;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #1e88e5;
 }
 
-header h1{
-    margin: 0;
-    padding: 1.2%;
+header h1 {
+  margin: 0;
+  padding: 1.2%;
 }
 
 /* containers */
-.container{
-    color: black;
-    margin: 3em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+.container {
+  color: black;
+  margin: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.container section{
-    background-color: white;
-    margin: 2% 5%;
-    padding: 2% 5%;
+.container section {
+  background-color: white;
+  margin: 2% 5%;
+  padding: 2% 5%;
 
-    border-radius: 5px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 
-    transition: all 350ms;
+  transition: all 350ms;
 }
 
-.container section:hover{
-    transform: scale(1.05);
+.container section:hover {
+  transform: scale(1.05);
 }
 
-label{
-    width: 240px;
-    height: 50px;
-    display: inline-block;
+label {
+  width: 240px;
+  height: 50px;
+  display: inline-block;
 }
 
-input{
-    height: 20px;
-    padding: 3px;
-    border: none;
-    border-bottom:#a0a0a0 solid 2px;
-    outline: none;
+input {
+  height: 20px;
+  padding: 3px;
+  border: none;
+  border-bottom: #a0a0a0 solid 2px;
+  outline: none;
 }
 
 /* buttons and output  */
-.output{
-    text-align: center;
-    padding: 5%;
+.output {
+  text-align: center;
+  padding: 5%;
 }
-.output label{
-    margin: 10% 0 0 0;
-    width: 120px;
+.output label {
+  margin: 10% 0 0 0;
+  width: 120px;
 }
 
 /* button customisation */
 button {
-    border: none;
-    width: 100px;
-    height: 35px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    outline: none;
+  border: none;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  outline: none;
 }
-  
+
 button:hover {
-    background-color: #42A5F5; /* Green */
-    color: white;
+  background-color: #42a5f5; /* Green */
+  color: white;
 }
 
 /* for text inside output tag*/
-output{
-    font-weight: bold;
+output {
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 650px) {
-    header {
-        font-size: 12px;
-    }
-    
-    .container section{
-        margin: 5%;
-        padding: 10%;
-    }
-    
-    label{
-        width: 240px;
-        height: 20px;
-        display: inline-block;
-    }
-    
-    input{
-        width: 90%;
-        height: 20px;
-        padding: 3px;
-    }
+  header {
+    font-size: 12px;
+  }
+  .container section {
+    margin: 5%;
+    padding: 10%;
+  }
+  label {
+    width: 240px;
+    height: 20px;
+    display: inline-block;
+  }
+
+  input {
+    width: 100%;
+    height: 20px;
+    padding: 3px;
+  }
 }
